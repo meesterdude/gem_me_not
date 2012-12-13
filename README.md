@@ -27,7 +27,7 @@ Then restart your rails app to load the change. And of course to switch back is 
 
 Tips
 -----
- 1. You can also persist the change by updating the bundle config settings (typically stored in ~/.bundle) or at the prompt:
+1. You can also persist the change by updating the bundle config settings (typically stored in ~/.bundle) or at the prompt:
 `bundle config gemfile Gemfile.local`
 2. Enviroment variables take precedence over bundler config; They are also local to the terminal session, so if you set it to use local it will revert back to using the configred one in another session.
 3. Alias the setting of the instance variables so you can say something like `localgems` or `appgems`
