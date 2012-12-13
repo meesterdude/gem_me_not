@@ -1,8 +1,7 @@
-GemMeNot: Project Gemfile + Custom Gemfile
+gem_me_not: Keep yer stinkin' gems outta the gemfile!
 =============
 
-This covers how to utilize gems in a rails app while keeping them isolated from the codebase. Useful for when you use
-gems that developers you work with do not. 
+This covers how to utilize a custom Gemfile in a rails app. Useful for when you use gems that developers you work with do not. 
 
 Setup
 -------------
