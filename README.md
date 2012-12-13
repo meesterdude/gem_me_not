@@ -29,7 +29,7 @@ Tips
 -----
 1. You can also persist the change by updating the bundle config settings (typically stored in ~/.bundle) or at the prompt:
 `bundle config gemfile Gemfile.local`
-2. Enviroment variables take precedence over bundler config; They are also local to the terminal session, so if you set it to use local it will revert back to using the configred one in another session.
+2. Enviroment variables take precedence over bundler config; They are also local to the terminal session, so if you set it to use local it will revert back to using the configred one in another session. This also means you can have two terminal windows open; one with the server using one set of gems, and one with it using another. 
 3. Alias the setting of the instance variables so you can say something like `localgems` or `appgems`
 4. Alias bundle to always run bundle for the local as well, so both are always up to date. in your ~/.bash_profile:
 `alias bundle="bundle install && bundle install --gemfile Gemfile.local"`
